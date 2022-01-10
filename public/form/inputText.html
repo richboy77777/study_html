@@ -9,13 +9,36 @@
 
 <body>
 
-	<form action="" method="post" id="form" name="" enctype="multiport/form-data">
+	<form action="" method="get" id="form" name="" enctype="multiport/form-data">
 		아이디 : <input type="text" id="id1" name="id1"> 
 		<br>아이디 : <input type="text" id="id2" name="id2" size="50"> 
 		<br>아이디 : <input type="text" id="id3" name="id3" maxlength="20"> 
 		<br>아이디 : <input type="text" id="id4" name="id4" placeholder="아이디"> 
 		<br>아이디 : <input type="text" id="id5" name="id5" value="maxkguy"> 
 		<br>아이디 : <input type="text" id="id6" name="id6" size="50" placeholder="" value="maxkguy">
+		<br>아이디 : <input type="text" id="id6" name="id6" size="50" autofocus="autofocus">
+		
+		<br>아이디 : <input type="text" id="id6" name="id6" size="50" autofocus="autofocus" value="이상원" readonly>
+		<br>아이디 : <input type="text" id="id6" name="id6" size="50" autofocus="autofocus" value="이상원" disabled>
+		
+		<hr>
+		<select disabled> <!-- readonly는 안되고 disabled만 된다 -->
+			<option>1
+			<option>2
+			<option selected>3
+		
+		</select>
+		
+		<hr>
+		
+		<p>여기부터</p>
+		<input type="hidden" id="" name="hidden" value="yes">
+		<p>여기까지 hidden</p>
+		
+		
+		<br> <input type="submit" value="submit">
+		</form>
+<!-- 
 		<br> <input type="button" id="button" name="button" value="제출" onclick="here();">
 
 	</form>
@@ -28,6 +51,6 @@
 		}
 	</script>
 
-
+ -->
 </body>
 </html>
